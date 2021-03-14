@@ -9,6 +9,7 @@ def test_bgp_facts(duthosts, enum_dut_hostname, enum_asic_index):
     """compare the bgp facts between observed states and target state"""
 
     duthost = duthosts[enum_dut_hostname]
+    import pdb; pdb.set_trace()
 
     # Check if duthost is 'supervisor' card, and skip the test if dealing with supervisor card.
     if duthost.is_supervisor_node():

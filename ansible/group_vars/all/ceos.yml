@@ -1,4 +1,4 @@
-ceos_image_filename: cEOS64-lab-4.23.2F.tar.xz
-ceos_image_orig: ceosimage:4.23.2F
-ceos_image: ceosimage:4.23.2F-1
+ceos_image_filename: cEOS64-lab-4.23.6M.tar
+ceos_image_orig: ceosimage:4.23.6M
+ceos_image: ceosimage:4.23.6M
 skip_ceos_image_downloading: false

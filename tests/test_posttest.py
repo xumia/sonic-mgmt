@@ -58,3 +58,10 @@ def test_recover_rsyslog_rate_limit(duthosts, enum_dut_hostname):
         cmds.append(cmd_reload.format(feature_name))
         duthost.shell_cmds(cmds=cmds)
 
+def test_filechange_for_secure_boot(duthosts, enum_dut_hostname):
+    duthost = duthosts[enum_dut_hostname]
+    import pdb; pdb.set_trace()
+    cmd_get_filelist = r"ls /host"
+    cmds = []
+    cmds.append(cmd_get_filelist)
+    duthost.shell_cmds(cmds=cmds)
