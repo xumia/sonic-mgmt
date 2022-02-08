@@ -50,7 +50,7 @@ def test_ssh_protocol_version(duthosts, rand_one_dut_hostname):
 
 def test_ssh_enc_ciphers(duthosts, rand_one_dut_hostname, enum_dut_ssh_enc_cipher, creds):
     typename = "enc"
-    connect_with_specified_ciphers(duthosts, rand_one_dut_hostname, enum_dut_ssh_enc_cipher, creds, typename)
+    #connect_with_specified_ciphers(duthosts, rand_one_dut_hostname, enum_dut_ssh_enc_cipher, creds, typename)
 
 def test_ssh_macs(duthosts, rand_one_dut_hostname, enum_dut_ssh_mac, creds):
     typename = "mac"
